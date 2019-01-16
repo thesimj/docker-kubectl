@@ -1,5 +1,3 @@
-[Kubernetes](https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png)
-
 # docker-kubectl ![License](https://img.shields.io/pypi/l/envyaml.svg)
 Kubernetes client (kubectl) with envsubst used with Kubernetes cluster as part of CI/CD pipeline
 
