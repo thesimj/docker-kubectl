@@ -11,4 +11,6 @@ LABEL org.label-schema.vcs-url="https://github.com/thesimj/docker-kubectl" \
 RUN apk add --no-cache ca-certificates curl gettext
 RUN curl -L https://storage.googleapis.com/kubernetes-release/release/${KUBE_VERSION}/bin/linux/amd64/kubectl -o /usr/local/bin/kubectl
 RUN chmod +x /usr/local/bin/kubectl
-RUN apk del --purge curl && rm /var/cache/apk/*
+RUN apk del --purge curl && rm -f /var/cache/apk/*
+
+WORKDIR /root
