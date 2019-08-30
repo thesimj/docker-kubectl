@@ -1,7 +1,7 @@
 FROM alpine
 LABEL maintainer="Mykola Bubelich <projects@bubelich.com>"
 
-ENV KUBE_VERSION="v1.13.1"
+ENV KUBE_VERSION="v1.13.10"
 
 # Metadata
 LABEL org.label-schema.vcs-url="https://github.com/thesimj/docker-kubectl" \
